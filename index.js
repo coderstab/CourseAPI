@@ -5,10 +5,15 @@ const app = express();
 app.use(express.json());
 
 const courses = [
-    {id: 1, name: 'course1'},
-    {id: 2, name: 'course2'},
-    {id: 3, name: 'course3'},
-    {id: 4, name: 'course4'}
+    {id: 1, name: 'Mathematics'},
+    {id: 2, name: 'English'},
+    {id: 3, name: 'Hindi'},
+    {id: 4, name: 'Social Science'},
+    {id: 5, name: 'English'},
+    {id: 6, name: 'Science'},
+    {id: 7, name: 'History'},
+    {id: 7, name: 'Geography'}
+
 ]
 
 app.get('/', (req,res) => {
