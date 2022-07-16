@@ -12,7 +12,7 @@ const courses = [
     {id: 5, name: 'English'},
     {id: 6, name: 'Science'},
     {id: 7, name: 'History'},
-    {id: 7, name: 'Geography'}
+    {id: 8, name: 'Geography'}
 
 ]
 
